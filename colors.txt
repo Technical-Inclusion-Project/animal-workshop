@@ -1,0 +1,5 @@
+Header Background: #40C9A2
+Header Text: #f2f2f2
+Card Background: #e7e7e7
+Button Background: #2F9C95
+Button Hover: #664147
