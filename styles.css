@@ -1,7 +1,9 @@
-body {
+
+html, body {
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, sans-serif;
+	height: 100%;
 }
 
 h1, h2, h3 {
@@ -19,15 +21,31 @@ header {
 header h1 {
 	flex: 1;
 	margin: 0;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.intro {
+	background: #5BC3EB;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.intro h2 {
+	color: #f2f2f2;
+	margin-bottom: 25px;
 }
 
 .animal-types {
 	display: flex;
+	padding: 25px;
 }
 
 .animal-types section {
 	flex: 1;
 	background: #e7e7e7;
+	border: 1px solid #c5c5c5;
 	border-radius: 5px;
 	margin: 20px;
 	padding: 20px;
@@ -46,6 +64,29 @@ a:hover {
 	background-color: #664147;
 }
 
+.heading-wrapper img {
+	width: 50px;
+	vertical-align: middle;
+	display: inline-block	
+}
+
+.heading-wrapper h2 {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+}
+
 footer {
-	
+	width: 100%;
+	background-color :#664147;
+	padding: 20px;
+	color: #f2f2f2;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+.footer-content img {
+	width: 50px;
 }
